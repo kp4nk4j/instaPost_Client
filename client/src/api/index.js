@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'https://instapost-server.up.railway.app/posts'
+const url = 'https://instapostserver.up.railway.app/posts'
 
 export const fetchPosts = () => axios.get(url)
 export const createPost = (newPost) => axios.post(url, newPost)
